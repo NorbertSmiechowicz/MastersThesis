@@ -1,0 +1,8 @@
+# "conda" "env" ( "update" / "create" ) "--prune" "--file="ENV_FILE_PATH
+name: masters
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
